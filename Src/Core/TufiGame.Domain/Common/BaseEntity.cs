@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TufiGame.Entity.Abstract
+namespace TufiGame.Domain.Common
 {
-    public class IEntity
+    public class BaseEntity
     {
-        //this is a marker interface
+        public Guid Id { get; set; }
+
     }
 }
