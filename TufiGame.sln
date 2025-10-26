@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TufiGame.Persistance", "Src\Infrastructure\TufiGame.Persistance\TufiGame.Persistance.csproj", "{89BF1CBA-3E81-4275-8812-3A0789B634E1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{57F17D81-011F-4E06-A156-1EA456D0D4DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TufiGame.WebApi", "Src\WebApi\TufiGame.WebApi\TufiGame.WebApi.csproj", "{1583EC84-CFD2-44B8-85E9-8C5C54F29829}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,10 @@ Global
 		{89BF1CBA-3E81-4275-8812-3A0789B634E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89BF1CBA-3E81-4275-8812-3A0789B634E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89BF1CBA-3E81-4275-8812-3A0789B634E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1583EC84-CFD2-44B8-85E9-8C5C54F29829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1583EC84-CFD2-44B8-85E9-8C5C54F29829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1583EC84-CFD2-44B8-85E9-8C5C54F29829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1583EC84-CFD2-44B8-85E9-8C5C54F29829}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +51,8 @@ Global
 		{18ED6D64-FB57-4061-8F6F-F407A2338270} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{74B98F21-C6A7-4B4A-841B-E74A1FED6F6D} = {7B470B0C-57AB-4CB3-A800-96CD7E70A452}
 		{89BF1CBA-3E81-4275-8812-3A0789B634E1} = {74B98F21-C6A7-4B4A-841B-E74A1FED6F6D}
+		{57F17D81-011F-4E06-A156-1EA456D0D4DF} = {7B470B0C-57AB-4CB3-A800-96CD7E70A452}
+		{1583EC84-CFD2-44B8-85E9-8C5C54F29829} = {57F17D81-011F-4E06-A156-1EA456D0D4DF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7FF16F3C-A682-41BB-9062-6651D9D4C661}

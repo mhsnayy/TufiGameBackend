@@ -7,7 +7,7 @@ using TufiGame.Domain.Entities;
 
 namespace TufiGame.Application.Interfaces.Repository
 {
-    public interface ICustomerRespositoryAsync: IGenericRepositoryAsync<Customer>
+    public interface ICustomerRespository: IGenericRepositoryAsync<Customer>
     {
         
     }
