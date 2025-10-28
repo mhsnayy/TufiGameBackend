@@ -7,11 +7,11 @@ using TufiGame.Domain.Common;
 
 namespace TufiGame.Domain.Entities
 {
-    public class Customer:BaseEntity
+    public class Trade:BaseEntity
     {
+        public int Statu { get; set; }//enum ile yapmam lazım oluştu mu beklemede mi gibi gibi
+        public Guid VendorId { get; set; }
         public Guid CustomerId { get; set; }
-        public Guid TradeUrlId{ get; set; }
-        public Guid TradeId{ get; set; }
-        
+        public Guid ItemId { get; set; }
     }
 }

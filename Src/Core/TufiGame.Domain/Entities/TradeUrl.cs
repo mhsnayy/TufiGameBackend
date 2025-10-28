@@ -7,11 +7,9 @@ using TufiGame.Domain.Common;
 
 namespace TufiGame.Domain.Entities
 {
-    public class Customer:BaseEntity
+    public class TradeUrl:BaseEntity
     {
+        public string Url { get; set; }
         public Guid CustomerId { get; set; }
-        public Guid TradeUrlId{ get; set; }
-        public Guid TradeId{ get; set; }
-        
     }
 }
