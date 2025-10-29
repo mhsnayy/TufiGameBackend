@@ -20,5 +20,8 @@ namespace TufiGame.Domain.Entities
         public DateTime MembershipDate{ get; set; }
         public Guid CustomerId { get; set; }
         public Guid VendorId { get; set; }
+        public Customer Customer { get; set; }
+        public Vendor Vendor { get; set; }
+
     }
 }

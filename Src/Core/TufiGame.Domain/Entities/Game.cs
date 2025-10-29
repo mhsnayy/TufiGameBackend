@@ -10,5 +10,6 @@ namespace TufiGame.Domain.Entities
     public class Game:BaseEntity
     {
         public string Name { get; set; }
+        public ICollection<ItemCategory> ItemCategories { get; set; }
     }
 }

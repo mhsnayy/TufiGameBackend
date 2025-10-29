@@ -11,5 +11,7 @@ namespace TufiGame.Domain.Entities
     {
         public string Name { get; set; }
         public Guid GameId { get; set; }
+        public Game Game { get; set; }
+        public ICollection<Item> Items { get; set; }
     }
 }

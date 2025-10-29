@@ -11,5 +11,8 @@ namespace TufiGame.Domain.Entities
     {
         public string Url { get; set; }
         public Guid CustomerId { get; set; }
+        public Guid VendorId { get; set; }
+        public Customer Customer { get; set; }
+        public Vendor Vendor { get; set; }
     }
 }

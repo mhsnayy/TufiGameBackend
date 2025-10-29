@@ -16,7 +16,10 @@ namespace TufiGame.Domain.Entities
         public decimal Price { get; set; }
         public int Amount { get; set; }
         public int Statu { get; set; }//bunu enum ile düzenleyeceğiz
-        public Guid VendorId { get; set; }
         public Guid CategoryId { get; set; }
+        public ICollection<Vendor> Vendors { get; set; }
+        public ICollection<Trade> Trades { get; set; }
+        public ItemCategory Category { get; set; }
+
     }
 }

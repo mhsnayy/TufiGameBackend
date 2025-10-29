@@ -12,6 +12,14 @@ namespace TufiGame.Persistance.Context
     {
       
         public DbSet<Customer> Customers { get; set; }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            base.OnConfiguring(optionsBuilder);//burada connection string ayarlıcaz
+        }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            // Configure entity mappings here if needed
+        }
 
     }
 }
