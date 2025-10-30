@@ -8,6 +8,6 @@ namespace TufiGame.Application.Features.CQRS.Handlers.UserHandlers
 {
     public class CreateUserCommandHandler
     {
-        private readonly ApplicationDbContext _context;
+        //private readonly ApplicationDbContext _context;
     }
 }
