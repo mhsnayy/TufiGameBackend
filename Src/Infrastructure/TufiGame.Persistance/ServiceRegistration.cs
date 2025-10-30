@@ -1,9 +1,12 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using MediatR;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using TufiGame.Persistance.Context;
 
 namespace TufiGame.Persistance
 {
@@ -12,6 +15,7 @@ namespace TufiGame.Persistance
         public static void AddPersistanceServices(this IServiceCollection services)
         {
             //persistence services here
+            services.AddDbContext<ApplicationDbContext>();
         }
     }
 }

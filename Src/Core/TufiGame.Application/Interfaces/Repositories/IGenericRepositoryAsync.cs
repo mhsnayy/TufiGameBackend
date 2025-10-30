@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using TufiGame.Domain.Common;
 using TufiGame.Domain.Entities;
 
-namespace TufiGame.Application.Interfaces.Repository
+namespace TufiGame.Application.Interfaces.Repositories
 {
     public interface IGenericRepositoryAsync<T> where T : BaseEntity
     {

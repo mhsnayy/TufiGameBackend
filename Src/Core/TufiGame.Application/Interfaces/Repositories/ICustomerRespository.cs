@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TufiGame.Domain.Entities;
 
-namespace TufiGame.Application.Interfaces.Repository
+namespace TufiGame.Application.Interfaces.Repositories
 {
     public interface ICustomerRespository: IGenericRepositoryAsync<Customer>
     {

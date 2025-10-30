@@ -5,10 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using TufiGame.Domain.Entities;
 
-namespace TufiGame.Application.DTOs.CustomerDTO
+namespace TufiGame.Application.Interfaces.Repositories
 {
-    public class CustomerCreateDTO
+    public interface IUserRepository:IGenericRepositoryAsync<User>
     {
-       
     }
 }
